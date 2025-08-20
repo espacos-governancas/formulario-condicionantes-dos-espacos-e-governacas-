@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Formulário: Condicionantes de governança territorial de redes.</title>
+<style>
+body {
+font-family: Arial;
+padding: 20px;
+background: linear-gradient(135deg, #7990b3, #131c6b);
+}
+
+h2 {
+color: #000000;
+text-align: left;
+}
+
+form {
+background-color: #fff;
+padding: 25px;
+border-radius: 12px;
+max-width: 600px;
+margin: auto;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+input, select {
+width: 100%;
+padding: 8px;
+margin-bottom: 15px;
+border-radius: 8px;
+border: 1px solid #ccc;
+font-size: 16px;
+transition: background-color 0.3s;
+}
+
+select option:disabled {
+background-color: #e0e0e0;
+color: #888;
+}
+
+button {
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+background-color: #3944aa;
+color: white;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+button:hover {
+background-color: #292d4e;
+}
+
+p.descricao {
+max-width: 600px;
+margin: 10px auto 20px;
+text-align: justify;
+color: #000000;
+}
+
+.header-box {
+background-color: #fff;
+padding: 25px;
+border-radius: 12px;
+max-width: 600px;
+margin: 20px auto;
+text-align: center;
+}
+
+</style>
+</head>
+<body>
+<div class="header-box">
+  <div style="text-align:center; margin-bottom:20px;">
+    <img src="logo1.jpg" alt="Imagem de topo" style="max-width: 200px;">
+    <img src="logo2.jpg" alt="Imagem de topo" style="max-width: 375px;">
+  </div>
+  
+<h2>Condicionantes de governança territorial de redes.</h2>
+<p class="descricao">
+Este formulário tem como objetivo identificar e hierarquizar os principais condicionantes que influenciam a governança nas regiões de saúde do estado da Bahia. Por gentileza, antes de começar a preencher avalie os 15 condicionantes do formulário e após isso, atribua um peso que varia de <strong>1 (menos importante)</strong> a <strong>15 (mais importante)</strong>, conforme a sua experiência.
+</p>
+</div>
+
+<form id="quizForm">
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" name="telefone" required placeholder="(DDD) 00000-0000">
+
+<label for="email">E-mail:</label>
+<input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+<label for="municipio">Município:</label>
+<input type="text" id="municipio" name="municipio" required placeholder="Digite seu município">
+
+<label for="regiao">Nome da Região de Saúde:</label>
+<input type="text" id="regiao" name="regiao" required placeholder="Digite a região de saúde">
+
+<p style="font-weight:bold; margin-bottom:15px;">
+Avalie os condicionantes abaixo atribuindo um peso de importância de 1 (menos  importante) a 15 (mais importante).
+</p>
+<label>Tempo e horário disponíveis para se reunir
+<select class="question" id="q1">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Autonomia política e administrativa para participar e opinar
+<select class="question" id="q2">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Capacidade de influenciar no processo decisório
+<select class="question" id="q3">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Hierarquia dos atores nas negociações e nas tomadas decisões
+<select class="question" id="q4">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Recursos financeiros para execução de políticas
+<select class="question" id="q5">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Disponibilidade de recursos humanos especializados
+<select class="question" id="q6">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Infraestrutura técnica de saúde na região (hospitais, clínicas, laboratórios, leitos...)
+<select class="question" id="q7">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Infraestrutura da região (lazer, cultura, esporte, comércios, serviços, educação, jurídica)
+<select class="question" id="q8">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Divulgação das decisões junto aos espaços de governança e junto a sociedade local e regional
+<select class="question" id="q9">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Cooperação com os demais espaços de governança (CIR, CIB, CEGRAS, fóruns, Consórcio, dentre outros)
+<select class="question" id="q10">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Cooperação com os setores da sociedade local e regional (educação, lazer, judiciário, empresarial, cultural...)
+<select class="question" id="q11">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Coordenação da SESAB em relação aos espaços de governança
+<select class="question" id="q12">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Falta de efetivação das ações propostas e pactuadas
+<select class="question" id="q13">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Formas de articulação/relação envolvendo a participação e o controle social
+<select class="question" id="q14">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+</select>
+</label>
+
+<label>Características geográficas (localização, tamanho, distância, clima)
+<select class="question" id="q15">
+<option value="">Selecione</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+
+</script>
+</select>
+</label>
+
+
+<button type="submit">Enviar</button>
+</form>
+
+<script>
+const selects = document.querySelectorAll('.question');
+
+function updateOptions() {
+const chosenValues = Array.from(selects)
+.map(s => s.value)
+.filter(v => v !== "");
+
+selects.forEach(select => {
+const currentValue = select.value;
+for (let opt of select.options) {
+if (opt.value === "") continue;
+opt.disabled = chosenValues.includes(opt.value) && opt.value !== currentValue;
+}
+});
+}
+
+selects.forEach(select => {
+select.addEventListener('change', updateOptions);
+});
+</script>
+</body>
+</html>
+
+<script>
+document.getElementById("quizForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const data = {
+    nome: document.getElementById("nome").value,
+    telefone: document.getElementById("telefone").value,
+    email: document.getElementById("email").value,
+    municipio: document.getElementById("municipio").value,
+    regiao: document.getElementById("regiao").value,
+    q1: document.getElementById("q1").value,
+    q2: document.getElementById("q2").value,
+    q3: document.getElementById("q3").value,
+    q4: document.getElementById("q4").value,
+    q5: document.getElementById("q5").value,
+    q6: document.getElementById("q6").value,
+    q7: document.getElementById("q7").value,
+    q8: document.getElementById("q8").value,
+    q9: document.getElementById("q9").value,
+    q10: document.getElementById("q10").value,
+    q11: document.getElementById("q11").value,
+    q12: document.getElementById("q12").value,
+    q13: document.getElementById("q13").value,
+    q14: document.getElementById("q14").value,
+    q15: document.getElementById("q15").value
+  };
+
+  fetch("https://script.google.com/macros/s/AKfycbwe6EQ9H83odIVNLfgXILxm-NZacO0ofi2iXNlLc4wwUr3MPXT2rdMN-V7gpIho17smdA/exec", {
+    method: "POST",
+    body: JSON.stringify(data)
+  })
+  .then(res => res.text())
+  .then(msg => {
+    alert("Formulário enviado com sucesso!");
+    document.getElementById("quizForm").reset();
+  })
+  .catch(err => {
+    alert("Erro ao enviar: " + err);
+  });
+});
+</script>
